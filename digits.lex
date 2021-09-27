@@ -10,7 +10,7 @@
     /* Match a string of one or more digits */
 [0-9]+  {
             /* yytext contains the matched text. */
-            std::cout << "Saw an integer: " << yytext << "\n";
+            std::cout << "INTEGER: " << yytext << "\n";
         }
 
 .|\n    {
